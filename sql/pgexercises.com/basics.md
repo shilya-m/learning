@@ -2,7 +2,7 @@
 
 
 # Схема
-![alt схема базы данных](./images/basic01.jpg)
+![alt схема базы данных](https://raw.githubusercontent.com/shilya-m/learning/master/sql/pgexercises.com/images/basic01.jpg)
 Задача 1. Показать всю таблицу
 ```sql
 select * from cd.facilities;
@@ -94,3 +94,6 @@ select firstname, surname, joindate
 	where joindate = 
 		(select max(joindate) from cd.members); 
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTU5NTk1ODEyMF19
+-->
